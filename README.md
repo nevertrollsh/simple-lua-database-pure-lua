@@ -28,18 +28,19 @@ These reside in /database/.
 | database.dat | The file where ntdatabase stores the data. |
 | game.dat | The file where the game's data is stored. It's much more reliable than ntdatabase. |
 
-# Getting started
-Start by opening main.lua and writing your very first project. It could be anything from a guess the number game to an rpg game. You could start out by creating a basic username system using `ntdatabase`.
+# Getting Started
+You can start by learning the basics of gdata(game database) since ntdatabase is used for keys and values that are customly stored and can be only retrieved using db.get(). Gdata stores your keys and values as actually variables in a file and loads them up so you can use them as normal variables.
 ```lua
 if username == nil then
 username = "Username"
+gdata.create("username","Username")
 end
 
 print("Hello " ..username.. "! You can change your username by inputting anything in the console.")
 while true do
 username = io.read()
 if username ~= nil then
-db.store("username",username)
+gdata.edit("username",username)
 print("Your username is now " ..username)
 else
 end
