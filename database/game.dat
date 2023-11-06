@@ -1,0 +1,4 @@
+game = {}
+game.name = "Game Name"
+game.version = "1.0"
+var1 = "Hello World!"
