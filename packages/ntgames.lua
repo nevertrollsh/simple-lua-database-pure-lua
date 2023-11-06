@@ -59,3 +59,6 @@ function gdata.edit(varName, newValue)
     end
 end
 
+function gdata.load()
+ dofile("database/game.dat")
+end
