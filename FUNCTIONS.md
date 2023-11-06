@@ -1,9 +1,9 @@
 [Back to README.md](./README.md)
 
 
-# Packages
+# Functions
 
-## ntdatabase
+## ntdatabase (package)
 Ntdatabase is a package filled with database functions. You can store a key and a value in a file using db.store(key, value). You can then retrieve the value by using the function db.get(key).
 
 ### Functions:
