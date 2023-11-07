@@ -17,6 +17,6 @@ local random = loadPackage("packages/random.lua")
 
 local ntchecks = loadPackage("packages/ntchecks.lua")
 
-local ntgames = loadPackage("packages/ntgames.lua")
+local ntgames = loadPackage("packages/gdata.lua")
 
 
